@@ -13,10 +13,10 @@ public class Log4j2LearningApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(Log4j2LearningApplication.class, args);
-        logger.trace("I am trace log.");
-        logger.debug("I am debug log.");
-        logger.info("I am info log.");
-        logger.warn("I am warn log.");
-        logger.error("I am error log.");
+        logger.trace("I am {} log.","trace");
+        logger.debug("I am {} log.","debug");
+        logger.info("I am {} log.","info");
+        logger.warn("I am {} log.","warn");
+        logger.error("I am {} log.","error");
     }
 }
